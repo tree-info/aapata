@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> झाडाची माहिती</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ===== COMMON ===== */
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Noto Sans Devanagari", sans-serif;
+      color: #1b5e20;
+      line-height: 1.75;
+      background: #ffffff;
+    }
+
+    /* ===== HEADER (SAME) ===== */
+    header {
+      background: linear-gradient(to right, #0d0d0d, #b30000);
+      color: #fff;
+      padding: 28px 40px;
+    }
+
+    .header-container {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .logo { text-align: center; }
+    .logo img { height: 120px; }
+
+    .udise {
+      margin-top: 6px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .header-text { text-align: center; }
+
+    .header-text h1 {
+      font-size: 36px;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .header-text h2 {
+      font-size: 24px;
+      margin: 8px 0;
+      font-weight: 600;
+    }
+
+    .email {
+      font-size: 16px;
+      text-align: right;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .header-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .email { text-align: center; }
+      .logo img { height: 95px; margin: auto; }
+    }
+
+    /* ===== BACKGROUND ===== */
+    .main-wrapper {
+      background:
+        linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)),
+        url("bg1.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 35px 22px;
+    }
+
+    /* ===== TREE CONTENT ===== */
+    .tree-title {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .tree-title h1 { font-size: 46px; }
+
+    .tree-title p {
+      font-size: 18px;
+      color: #33691e;
+    }
+
+    .tree-image {
+      width: 360px;
+      height: 300px;
+      margin: 28px auto;
+      border-radius: 20px;
+      background: linear-gradient(145deg, #e8f5e9, #c8e6c9);
+      overflow: hidden;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    }
+
+    .tree-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    section {
+      background: linear-gradient(to bottom right, #ffffff, #f1fff3);
+      padding: 32px;
+      margin-bottom: 38px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+
+    section h2 {
+      border-bottom: 3px solid #81c784;
+      padding-bottom: 12px;
+      margin-bottom: 18px;
+      font-size: 28px;
+    }
+
+    section p { text-align: justify; }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: linear-gradient(to bottom right, #ffffff, #e8f5e9);
+      padding: 22px;
+      border-radius: 14px;
+      border-left: 6px solid #2e7d32;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+
+    .circular-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .circular-card {
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #e8f5e9, #a5d6a7);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 28px;
+      border: 6px solid #2e7d32;
+    }
+
+    /* ===== FOOTER (SAME) ===== */
+    footer {
+      text-align: center;
+      padding: 22px;
+      background: linear-gradient(to right, #2e7d32, #66bb6a);
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ===== HEADER (UNCHANGED) ===== -->
+<header>
+  <div class="header-container">
+    <div class="logo">
+      <img src="pm logo.png" alt="PM SHRI Logo">
+      <div class="udise">UDISE : 27150107301</div>
+    </div>
+
+    <div class="header-text">
+      <h1>पीएम श्री जिल्हा परिषद हायस्कूल, विष्णुपूरी नांदेड</h1>
+    </div>
+
+    <div class="email">
+      E-mail ID<br>
+      <strong>zphsvishnupuri@gmail.com</strong>
+    </div>
+  </div>
+</header>
+
+
+<div class="main-wrapper">
+<main>
+
+  <div class="tree-title">
+    <h1>🌿 आपटा</h1>
+    <p>
+      English Name : Indian Laurel<br>
+      <i>Scientific Name : Ficus infectoria</i>
+    </p>
+
+    <div class="tree-image">
+      <img src="aapta.png" alt="{{झाडाचे नाव}}">
+    </div>
+  </div>
+
+  <section>
+  <h2>संक्षिप्त परिचय</h2>
+  <p>
+    आपटा झाड, ज्याला इंग्रजीत Indian Laurel किंवा Cluster Fig Tree म्हणतात, हे Moraceae कुटुंबातील एक महत्वाचे फळझाड आहे. याचे शास्त्रीय नाव <i>Ficus infectoria</i> किंवा काही प्रकारांसाठी <i>Ficus microcarpa</i> आहे. हे झाड भारतातील उष्णकटिबंधीय आणि उपउष्णकटिबंधीय प्रदेशांमध्ये नैसर्गिकरीत्या आढळते. झाडाची उंची साधारण 10–20 मीटरपर्यंत वाढते, आणि त्याचा ढोका घनदाट व पसरलेला असतो. झाडाची साल गडद तपकिरी रंगाची असते. पाने हिरवी, मोठी, चमकदार आणि गुळगुळीत असतात. फुले लहान असून बहुधा फळांच्या गाठीच्या जवळ तयार होतात. फळे गोलसर, लहान, गाठीवर एकत्र वाढणारी असून सुरुवातीला हिरवी आणि नंतर लालसर किंवा काळसर होतात. फळांचा स्वाद मधुर असतो. झाड मधमाशा, पक्षी व इतर परागीभवन करणारे कीटक आकर्षित करते. मुळे जमिनीत घट्ट पकडतात आणि मातीची संरचना टिकवतात. झाड पूर्ण सूर्यप्रकाश व हलकी उष्णता पसंत करते. पाणी पुरेसे दिल्यास झाड जलद वाढते व अनेक वर्षे टिकते. झाडाची मुळे, पाने, फळे आणि फांद्या औषधीय गुणधर्मांनी समृद्ध आहेत. पारंपरिक आयुर्वेदात याचा उपयोग जठरविकार, त्वचारोग, ज्वर आणि इतर आजारांमध्ये केला जातो. झाडाचा गारवा उन्हाळ्यात छाया देतो आणि परिसरातील हवामान सुधारतो. शहरी व ग्रामीण भागात या झाडामुळे हरित क्षेत्र वाढते. झाडाचे फळे प्रथिने, जीवनसत्वे व खनिजांनी समृद्ध असतात आणि स्थानिक बाजारात विकल्या जातात. झाड बागकाम, सार्वजनिक उद्यान, रस्त्यांच्या कड्या व शाळा-कॉलेज परिसरात उपयुक्त आहे. झाड सौंदर्य, उपयोगिता, पोषण, औषधीय गुणधर्म व पारंपरिक महत्त्वाने युक्त आहे. झाड कार्बन डायऑक्साईड शोषून प्रदूषण कमी करण्यात मदत करते. झाड पारंपरिक सण व धार्मिक विधींमध्ये वापरले जाते. झाडाची छाया, फुलं व फळे सौंदर्य व सजावटीसाठी उपयुक्त आहेत. झाड शहरी व ग्रामीण परिसरातील जैवविविधता टिकवते. झाड टिकाऊ, सौंदर्यदायी आणि फायदेशीर आहे. झाड आर्थिक, सामाजिक व पर्यावरणीय दृष्ट्या खूप उपयुक्त आहे. झाडाच्या विविध भागांचा उपयोग औषधीय, पोषण व सामाजिक उद्दिष्टांसाठी केला जातो. झाड शहरी हरितायोजन, कृषी अर्थव्यवस्था व जैवविविधतेसाठी महत्त्वाचे आहे. झाडाची निगा राखल्यास दीर्घकाळ टिकते आणि परिसरासाठी फायदेशीर ठरते. झाड हे अनेक पक्षी व कीटकांचे घर असून नैसर्गिक परागीभवनास मदत करते. झाड लोकांच्या जीवनात पारंपरिक व आर्थिक महत्त्व राखते. झाड पर्यावरणीय संतुलन टिकवते. झाड शहरी प्रदूषण कमी करण्यास उपयुक्त आहे. झाड सौंदर्य, उपयोगिता, पर्यावरणीय व औषधीय दृष्ट्या महत्त्वाचे आहे. झाड शहरी व ग्रामीण भागातील जीवनमान सुधारते.
+  </p>
+</section>
+
+<section>
+  <h2>वनस्पतीशास्त्रीय माहिती</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>🌿 कुल</h3>
+      <p>Moraceae</p>
+    </div>
+    <div class="card">
+      <h3>🌱 रचना</h3>
+      <p>उंच बहुवर्षायू झाड, 10–20 मीटर, घनदाट ढोका, गुळगुळीत हिरवी पाने</p>
+    </div>
+    <div class="card">
+      <h3>🌼 फुले</h3>
+      <p>लहान, गाठीवर एकत्र, मधमाशा व पक्षी आकर्षित करतात</p>
+    </div>
+    <div class="card">
+      <h3>🌍 अधिवास</h3>
+      <p>भारत, श्रीलंका, दक्षिण-पूर्व आशिया, नदीकाठ, उद्यान, शहरी व ग्रामीण परिसर</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>सामाजिक व सांस्कृतिक महत्त्व</h2>
+  <p>
+    आपटा झाड धार्मिक विधींमध्ये, पारंपरिक सण व उत्सवांमध्ये वापरले जाते. फळे, पाने व फुलं सजावटीसाठी उपयोगी आहेत. 
+    झाड सामाजिक आणि सांस्कृतिक कार्यक्रमात महत्वाचं स्थान राखते. शाळा-कॉलेज परिसर, सार्वजनिक उद्यान व घरांच्या बागांमध्ये हे झाड सौंदर्य व हरितायोजनासाठी लावले जाते. 
+    फळे पोषक असून स्थानिक बाजारात विकल्या जातात. झाड शहरी आणि ग्रामीण परिसरातील हरित क्षेत्र वाढवते.
+  </p>
+</section>
+
+<section>
+  <h2>काळजी व धोके</h2>
+  <div class="circular-container">
+    <div class="circular-card">
+      <p>झाडाला पूर्ण सूर्यप्रकाश द्या, पण खूप उष्णतेत झाडाची काळजी घ्या.</p>
+    </div>
+    <div class="circular-card">
+      <p>पाणी पुरेसे द्या, पण पाण्याचा साच पडू न देणे महत्त्वाचे आहे. फळे व पाने हाताळताना संवेदनशीलता लक्षात ठेवा.</p>
+    </div>
+  </div>
+</section>
+
+
+</main>
+</div>
+
+<!-- ===== FOOTER (UNCHANGED) ===== -->
+<footer>
+  © 2025–26 | झाडांची माहिती | PM SHRI ZP High School, Vishnupuri, Nanded
+</footer>
+
+</body>
+</html>
